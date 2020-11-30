@@ -8,25 +8,27 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-     background:
-        radial-gradient(
-            khaki 40px,
-            transparent 0,
-            transparent 100%
-        ),
-        radial-gradient(
-            skyblue 40px,
-            transparent 0,
-            transparent 100%
-        ),
-        radial-gradient(
-            pink 40px,
-            transparent 0,
-            transparent 100%
-        ), snow;
-    background-blend-mode: multiply;
-    background-size: 100px 100px;
-    background-position: 0 0, 33px 33px, -33px -33px;
+    background:
+	repeating-linear-gradient(
+		to top left,
+		beige 0,
+		beige 2em,
+		moccasin 2em,
+		moccasin 4em,
+		wheat 4em,
+		wheat 6em
+	),
+	repeating-linear-gradient(
+		to left,
+		white 0,
+		white 2em,
+		wheat 2em,
+		wheat 4em,
+		beige 4em,
+		beige 6em
+	), white;
+
+background-blend-mode: multiply;
   }
   .todo-title {
     
@@ -43,9 +45,10 @@
     cursor: pointer;
   }
   .tab-list > span.active {
-    background-color: #282c34;
+    background-color: #0f5af0;
     color: #ffffff;
   }
   .text-white{
-    color:#000000!important;
+    color:#0407a3!important;
+    font-size: 4em;
   }
