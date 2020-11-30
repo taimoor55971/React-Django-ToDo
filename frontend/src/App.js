@@ -1,6 +1,7 @@
 import React, { Component } from "react";
     import Modal from "./Components/Modal";
-    import axios from "axios";
+import axios from "axios";
+    import "./index.css"
 
     class App extends Component {
       constructor(props) {
